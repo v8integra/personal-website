@@ -113,9 +113,10 @@ canvas {
 
 /* About Section */
 .about {
-  padding: 8rem 2rem;
-  max-width: 1200px;
+  font-size: 1.15rem;
+  padding: 6rem 3rem;
   margin: 0 auto;
+  max-width: 1200px;
   position: relative;
 }
 
@@ -124,33 +125,6 @@ canvas {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
-}
-
-.about-image {
-  position: relative;
-  border-radius: 1rem;
-  overflow: hidden;
-  transform: translateX(-50px);
-}
-
-.about-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 1rem;
-}
-
-.about-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 2px solid var(--accent-color);
-  border-radius: 1rem;
-  transform: translate(15px, 15px);
-  pointer-events: none;
-}
-
-.about-content {
-  transform: translateX(50px);
 }
 
 .about-title {
