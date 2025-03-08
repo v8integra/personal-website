@@ -114,10 +114,11 @@ canvas {
 /* About Section */
 .about {
   font-size: 1.15rem;
-  padding: 6rem 3rem;
+  padding: 4rem 4rem;
   margin: 0 auto;
   max-width: 1200px;
   position: relative;
+  transform: translateX(80px);
 }
 
 .about-grid {
@@ -138,18 +139,21 @@ canvas {
 .about-text {
   margin-bottom: 2rem;
   line-height: 1.8;
+  max-width: 1000px;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
   margin-top: 2rem;
+  transform: translateX(200px);
 }
 
 .skill-item {
   background: rgba(255, 255, 255, 0.05);
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 0.5rem;
   text-align: center;
   transform: translateY(20px);
@@ -202,6 +206,7 @@ canvas {
 .timeline-description {
   color: var(--text-color);
   font-size: 0.9rem;
+  padding-top: .5rem;
 }
 
 @media (max-width: 768px) {
